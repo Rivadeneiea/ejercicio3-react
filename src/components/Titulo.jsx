@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useState } from "react";
 
 const Titulo = () => {
-    return (
-        <article>
-            <h1>Hello my friend</h1>
-        </article>
-    );
+  const [mensaje, setMensaje] = useStat("from changed state");
+
+  return (
+    <article>
+      <h1>Hello my friend</h1>
+    </article>
+  );
 };
 
 export default Titulo;
