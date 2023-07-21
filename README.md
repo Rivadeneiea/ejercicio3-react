@@ -1,8 +1,12 @@
-# React + Vite
+# Ejercicio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- En este proyecto creamos un componente Titulo
+- al cual lo mostramos por pantalla
+- modifique componente anterior mediante props
+- utilizo state
 
-Currently, two official plugins are available:
+### Requisitos:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Modificar el programa anterior agregando al componente un state con la clave msj:
+“(from changed state)”, además agregar un botón al presionar este botón (onClick),
+el state de la clave msj se debe mostrar por pantalla de la siguiente manera
