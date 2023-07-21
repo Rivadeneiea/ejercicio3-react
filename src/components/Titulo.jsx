@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 
 const Titulo = () => {
-  const [mensaje, setMensaje] = useStat("from changed state");
+  const [mensaje, setMensaje] = useState("");
 
   return (
-    <article>
-      <h1>Hello my friend</h1>
+    <article className="text-center">
+      <h1>Hello my friend {mensaje}</h1>
+      <Button
+        variant="primary"
+        onClick={() => setMensaje("from changed state")}
+      >
+        Primary
+      </Button>
     </article>
   );
 };
